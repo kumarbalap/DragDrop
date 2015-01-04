@@ -1,0 +1,198 @@
+/* RESET Styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, em, img, small, strike, strong, sub, sup, tt, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+input {
+  border-radius: 0;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+:focus {
+  outline: 0;
+}
+
+html {
+  overflow-y: scroll;
+  /* Always show a vertical scrollbar, even when there is no scrolling */ 
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+  
+
+/* HTML5 Element Reset */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+/* Commmon */
+@font-face {
+    font-family: "Droid Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Droid Sans"), local("DroidSans"), url("https://fonts.gstatic.com/s/droidsans/v6/fwaKx1kMZPd4oO9WTEGQafesZW2xOQ-xsNqO47m55DA.woff") format("woff");
+}
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.clearfix:before, .clearfix:after {
+ clear: both;
+ content: "";
+ display: table;
+}
+.butMedium {
+  display: inline-block;
+  padding: 8px 25px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #3498db, #2980b9) repeat scroll 0 0 #3498db;
+  border-radius: 3px;
+  border: none;
+  outline:none;
+  text-decoration: none;
+}
+.butMedium:hover {
+  background: linear-gradient(to bottom, #3cb0fd, #3498db) repeat scroll 0 0 #3cb0fd;
+}
+.messageCont {
+  display: none;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: red;
+  border: 1px solid #fcefa1;
+  background: #fbf9ee;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.messageCont span {
+  display: block;
+  margin-top: 10px;
+}
+.messageCont span:first-child {
+  margin: 0;
+}
+
+
+html { 
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Droid Sans', 'Tahoma', 'Verdana';
+  font-size: 15px;
+}
+
+/* header styles */
+header {
+  margin: 10px 0 20px;
+  padding: 20px 0;
+  border-bottom: 3px solid #e3791c;
+}
+header h1 {
+ float: left;
+}
+header nav {
+  float: right;
+}
+
+/* body styles */
+.mainCont {
+ position: relative;
+ height: 500px;
+}
+.listCont {
+ float: left;
+ height: 100%;
+ margin-left: 20px;
+}
+.listContLeft {
+  margin-left: 0;
+}
+.resetAll {
+  display: none;
+}
+
+.itemAddCont {
+  margin-bottom: 10px;
+}
+.itemAddCont label {
+  display: inline-block;
+  width: 170px;
+}
+.itemAddCont input {
+  width: 25px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid #666;
+}
+
+.listCont ul {
+ width: 162px;
+ padding: 10px;
+ border: 1px solid #EEE;
+}
+
+.listCont li {
+  width: 99%;
+  height: 20px;
+  padding: 12px 0;
+  margin-top: 3px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  cursor: move;
+}
+li.leftList {
+  background: #e6e6e6;
+  border: 1px solid #d3d3d3;  
+}
+li.rightList {
+ background: #fbf9ee;
+ border: 1px solid #fcefa1;
+}
+
+.configDone {
+ position: absolute;
+ right: 20px;
+ bottom: 20px;
+}
+
+/* Drag and drop */
+#containment {
+  background-color: #ffa;
+  height: 230px;
+}
+.placeholder {
+  background-color: #bfb;
+  border: 1px dashed #666;
+  height: 58px;
+  margin-bottom: 5px;
+}

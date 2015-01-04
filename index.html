@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Multi List Manager</title>
+    <meta name="description" content="Multi List Manager" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript" src="multi-list.js"></script>
+</head>
+
+<body>
+
+	<header>
+      <div class="wrapper">
+          <h1>Multi List Manager</h1>
+          <nav>
+              <ul>
+                  <li>
+                      <span class="butMedium listConfig">Configure</span>
+                      <span class="butMedium resetAll">Reset All</span>
+                  </li>
+              </ul>
+          </nav>
+          <div class="clearfix"></div>
+      </div>
+  </header>
+  
+  <div class="mainCont wrapper">
+
+      <div class="messageCont"></div>
+
+      <div class="listCont listContLeft">
+          <span class="butMedium addItem">Add Item</span>
+          <ul class="leftList">
+          </ul>
+      </div>
+
+      <div class="listCont listContMiddle">
+          <div class="itemAddCont">
+              <label for="leftAllowed">Left Allowed Items</label>
+              <input type="text" class="txtInput" id="leftAllowed" value="1" />
+          </div>
+          <div class="itemAddCont">
+              <label for="rightAllowed">Right Allowed Items</label>
+              <input type="text" class="txtInput" id="rightAllowed" value="1" />
+          </div>
+          <ul class="middleList">
+          </ul>
+      </div>
+
+      <div class="listCont listContRight">
+          <span class="butMedium addItem">Add Item</span>
+          <ul class="rightList">
+          </ul>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <span class="butMedium configDone">Save Config</span>
+
+  </div>
+  
+  <footer></footer>
+  
+</body>
+</html>
